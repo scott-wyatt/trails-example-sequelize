@@ -31,8 +31,10 @@ npm  install  && npm  start  ;
 
 ##      T H R E E
 Now install https://www.getpostman.com/ and enter something like this into 
-- the POST  body-->JSON block and click "Send:"
-- ```json
+
+POST  
+body-->JSON block and click "Send:" 
+```json
 {  "username": "marky-boy",   "email": "markyboy@gmail.com"  }
 ```
 
