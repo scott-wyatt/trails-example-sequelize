@@ -1,0 +1,47 @@
+{
+  "name": "trails-example-sequelize",
+  "version": "0.0.0",
+  "description": "Trails Example app with Sequeliz",
+  "homepage": "http://trailsjs.io",
+  "author": {
+    "name": "scott-wyatt",
+    "email": "scottwyatt86@gmail.com",
+    "url": "https://cali-style.com"
+  },
+  "main": "index.js",
+  "keywords": [
+    "example",
+    "trails",
+    "sequelize",
+    "trailsjs"
+  ],
+  "dependencies": {
+    "express": "^5.0.0-alpha.2",
+    "shortid": "^2.2.8",
+    "sqlite3": "^3.1.13",
+    "trailpack-express": "^2.0.3",
+    "trailpack-footprints": "^2.0.0",
+    "trailpack-repl": "^2.0.0",
+    "trailpack-router": "^2.0.0",
+    "trailpack-sequelize": "^2.0.0",
+    "trails": "^2.0.0",
+    "winston": "^2.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-trails": "^2.0.8",
+    "mocha": "^2.5",
+    "supertest": "^1.2"
+  },
+  "scripts": {
+    "test": "eslint --fix . && mocha"
+  },
+  "engines": {
+    "node": ">= 4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "trails"
+  },
+  "repository": "git@github.com:scott-wyatt/trails-sequelize-example.git",
+  "license": "MIT"
+}
